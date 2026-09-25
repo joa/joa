@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Joa Ebert: distributed systems, compilers, and the occasional AI experiment">
+  <style>
+    :root { --bg: #f6f8fa; --fg: #1f2328; --muted: #59636e; --pulse: #1a7f37; --grid: #d1d9e0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d1117; --fg: #f0f6fc; --muted: #9198a1; --pulse: #3fb950; --grid: #21262d; }
+    }
+    .bg { fill: var(--bg); }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .name { fill: var(--fg); font-size: 44px; font-weight: 700; letter-spacing: -1px; }
+    .sub { fill: var(--muted); font-size: 16px; }
+    .up { fill: var(--pulse); font-size: 14px; }
+    .trace { fill: none; stroke: var(--pulse); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+    .scroll { animation: scroll 2.4s linear infinite; }
+    .dot { fill: var(--pulse); animation: blink 1.2s ease-in-out infinite; }
+    .cursor { fill: var(--pulse); animation: cursor 1s steps(1) infinite; }
+    @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-150px); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    @keyframes cursor { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .scroll, .dot, .cursor { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path class="grid" d="M30 0H0V30" fill="none"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".12" stop-color="#fff"/>
+      <stop offset=".88" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="900" height="220" fill="url(#fade)"/></mask>
+  </defs>
+  <rect class="bg" width="900" height="220" rx="12"/>
+  <rect width="900" height="220" rx="12" fill="url(#g)" opacity=".6"/>
+  <text class="name" x="48" y="78">joa ebert<tspan class="cursor">_</tspan></text>
+  <text class="sub" x="50" y="108">distributed systems · compilers · the occasional AI experiment</text>
+  <circle class="dot" cx="714" cy="46" r="5"/>
+  <text class="up" x="728" y="51">uptime 99.9999%</text>
+  <g mask="url(#m)" transform="translate(0 130)">
+    <path class="trace scroll" d="M0 40 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0 l60 0 l8 -10 l6 22 l8 -42 l8 50 l6 -20 l54 0"/>
+  </g>
+</svg>
