@@ -23,7 +23,7 @@ Distributed systems, compilers, and the occasional AI experiment. Former CTO at 
 
 <p>
   <a href="https://www.joa-ebert.com"><img alt="Website" src="https://img.shields.io/badge/Website-1f2328?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="https://www.joa-ebert.com/index.xml"><img alt="Blog (RSS)" src="https://img.shields.io/badge/Blog-ee802f?style=for-the-badge&logo=rss&logoColor=white"></a>
+  <a href="https://www.joa-ebert.com/index.xml"><img alt="Blog (RSS)" src="https://img.shields.io/badge/Blog%20RSS-ee802f?style=for-the-badge&logo=rss&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/joaebert/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNCIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjEyIiB5PSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZvbnQtc2l6ZT0iMTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwQTY2QzIiPmluPC90ZXh0Pjwvc3ZnPg=="></a>
   <a href="https://x.com/joa"><img alt="X" src="https://img.shields.io/badge/@joa-000000?style=for-the-badge&logo=x&logoColor=white"></a>
   <a href="https://www.instagram.com/joa.ebert/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
